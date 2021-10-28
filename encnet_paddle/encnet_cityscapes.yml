@@ -1,0 +1,19 @@
+_base_: '../_base_/cityscapes.yml'
+
+batch_size: 1
+iters: 80000
+
+
+model:
+  type: EncNet
+  backbone:
+    type: ResNet50_vd
+    align_corners: False
+    pretrained: Null
+  num_classes: 19
+  pretrained: Null
+  backbone_indices: [-1]
+  align_corners: False
+
+optimizer:
+  weight_decay: 0.0005

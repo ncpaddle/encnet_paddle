@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb0a49a3-e21b-42f6-b7d2-81031610bdbe" name="lab">
+        <fileTransfer rootFolder="/home/wzl/myData/fuxian/PyTorch-Encoding-master" accessType="SFTP" host="192.168.2.106" port="22" sshConfigId="c763a775-703a-4634-aa5c-a9ced573e283" sshConfig="wzl@192.168.2.106:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
