@@ -37,7 +37,7 @@ encnet_reprod
      
 |Method| Backbone | Crop Size | lr schedule | mIoU | models |    
 |----|----|----|----|----|----|       
-| Encnet | R-101-D8 | 512x1024 | 80000 | 74.85 | [model link]() |  
+| Encnet | R-101-D8 | 512x1024 | 90000 | 75.43 | [model link]() |  
      
 </center>  
 
