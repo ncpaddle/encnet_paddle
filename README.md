@@ -28,7 +28,6 @@ encnet_reprod
         ├──  train.py  # 训练入口文件
         ├──  val.py # 预测文件
      ├──  encnet_pytorch # encnet_Pytorch
-     ├── log  # 完整的模型训练评估日志
 
 ```
 
