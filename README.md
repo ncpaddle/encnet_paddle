@@ -4,7 +4,7 @@
  
 ## Introduction 
 
-In this repository, we implement the Contect Encoding Module which can improve semantic segmentation results a lot under the [Paddle](https://www.paddlepaddle.org.cn/) framework. Our model achieves 78% mIoU on Cityscapes dataset after 80,000 steps training, which is close to the results with [mmsegmentation_encnet](https://github.com/open-mmlab/mmsegmentation/tree/master/configs/encnet).  
+In this repository, we implement the Contect Encoding Module which can improve semantic segmentation results a lot under the [Paddle](https://www.paddlepaddle.org.cn/) framework. Our model achieves 74.85% mIoU on Cityscapes dataset after 80,000 steps training, which is lower than the results with [mmsegmentation_encnet](https://github.com/open-mmlab/mmsegmentation/tree/master/configs/encnet).  We ascribe this substandard precision to the differences between *PaddleSeg* and *mmsegmentation*, which mainly comes from the data augmentation and learning rate schedule method.
 
 - Original Paper : [Context Encoding for Semantic Segmentation](https://arxiv.org/abs/1803.08904)  
 - Official repo : [Pytorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)  
@@ -38,7 +38,7 @@ encnet_reprod
      
 |Method| Backbone | Crop Size | lr schedule | mIoU | models |    
 |----|----|----|----|----|----|       
-| Encnet | R-101-D8 | 512x1024 | 80000 | 78 | [model link]() |  
+| Encnet | R-101-D8 | 512x1024 | 80000 | 74.85 | [model link]() |  
      
 </center>  
 
