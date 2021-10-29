@@ -59,13 +59,13 @@ python -m paddle.distributed.launch train.py \
        --do_eval \ 
        --use_vdl \ 
        --save_interval 3000 \ 
-       --save_dir /root/paddlejob/workspace/output/ 
+       --save_dir output/ 
 ```
 To test the results with the model we provided :
 ```
-!python val.py \
+python val.py \
 	--config configs/encnet/encnet_cityscapes.yml \ 
-	--model_path /home/aistudio/work/output/iter_80000/model.pdparams
+	--model_path output/iter_80000/model.pdparams
 ```
 
 ## AI studio link
