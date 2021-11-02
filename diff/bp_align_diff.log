@@ -1,5 +1,0 @@
-[2021/10/28 23:03:42] root INFO: bp_loss1: 
-[2021/10/28 23:03:42] root INFO: 	mean diff: check passed: True, value: 0.0
-[2021/10/28 23:03:42] root INFO: bp_loss2: 
-[2021/10/28 23:03:42] root INFO: 	mean diff: check passed: True, value: 2.9087066650390625e-05
-[2021/10/28 23:03:42] root INFO: diff check passed
